@@ -1,0 +1,144 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(./background.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;       /* Cover the entire viewport */
+      background-position: center;  /* Center the image */
+      background-repeat: no-repeat; /* Prevent tiling */
+}
+
+@font-face {
+    font-family: 'Norse-Bold';
+    src: url('fonts/Norse-Bold.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.sidebar{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.wrapper{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: row;
+    align-items: center; */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* opacity: 40%; */
+    align-items: center;
+    font-family:'Norse-Bold',sans-serif;
+    font-size: 72px;
+    color: white;
+    position: relative;
+    bottom: 20%;
+}
+
+
+#odin-img{
+    width: 100px;
+}
+
+.odin-text{
+    opacity: 100%;
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.content {
+    width: 70vw;
+    height: 100vh;
+    background-color:#fafafa;
+    /* padding-left: 10%; */
+    
+}
+
+.header{
+    height:40vh;
+    font-size: 28px;
+    font-family: sans-serif;
+    text-align: left;
+    align-content: center;
+    padding-left: 10%;
+    padding-right: 20%;
+    font-weight: 800;
+}
+
+.signup{
+    padding-left: 10%;
+    height: 30vh;
+    background-color: rgb(255, 255, 255);
+    align-content: center;
+}
+
+input{
+    border-radius: 10%;
+    border-width: 2px;
+    border-color:  #E5E7EB;
+    box-shadow: none;
+    background-color: #fafafa;
+}
+
+.submit-data{
+    display: flex;
+    min-height: 70%;
+    /* align-content: center; */
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+}
+
+.input-fields{
+    /* display: grid;
+    grid-template-columns: ; /* 3 equal columns */
+    /* gap: 20px; */
+    display: flex;
+    flex-wrap: wrap; 
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+    
+    
+}
+
+.input-field{
+    align-content: center;
+    width: 33%;
+}
+
+.footer{
+    padding-left: 10%;
+    /* padding-top: 10%; */
+}
+
+#letsdothis{
+    font-size: 36px;
+    font-weight: 800;
+}
+
+
+#create-account{
+    background-color: #596D48;
+    font-weight: 800;
+    color: white;
+    border-width: 0;
+    box-shadow: none;
+    border-radius: 8px;
+    height: 36px;
+    width: 158px;
+    text-overflow: ellipsis;
+}
+
+
